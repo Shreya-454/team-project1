@@ -6,6 +6,7 @@
     --fs-lg: 30px;
     --fs-xl: 40px;
 }
+
 @media (min-width:550px) {
     :root {
         /* font-size */
@@ -17,3 +18,16 @@
     }
 }
 
+:root {
+    /* /background-color */
+    --bg-red: #F4241E;
+    --bg-yellow: #F6E300;
+    --bg-light: #FFF03F;
+    --bg-white: #FFFF;
+}
+
+:root {
+    --bs-red: #F4241E;
+    --bs-white:#fff;
+    --bs-black:#0000;
+}

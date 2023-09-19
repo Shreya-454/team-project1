@@ -15,7 +15,7 @@
 }
 
 .bg-yellow {
-    background: #F6E300;
+    background: var(--bg-yellow);
 
 }
 
@@ -29,7 +29,7 @@
 }
 
 .fonts:hover {
-    color: #F4241E;
+    color: var(--bg-red);
 }
 
 .pt-11 {
@@ -45,7 +45,7 @@
 }
 
 .button {
-    color: #F4241E;
+    color: var(--bs-red);
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-md);
     font-style: normal;
@@ -61,7 +61,7 @@
 
 .button:hover {
     color: #FFF;
-    background-color: #F4241E;
+    background-color: var(--bg-red);
 }
 
 .btn2 {
@@ -70,8 +70,8 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 10px;
-    background: var(--red, #F4241E);
-    color: #FFF;
+    background: var(--bg-red);
+    color: var(--bs-white);
     font-family: 'Roboto', sans-serif;
     font-size: var(--fs-sm);
     font-style: normal;
@@ -88,7 +88,6 @@
 
 
 .heading1 {
-    color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-xl);
     font-style: normal;
@@ -97,7 +96,6 @@
 }
 
 .heading2 {
-    color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-lg);
     font-style: normal;
@@ -116,11 +114,9 @@
     font-size: var(--fs-s);
     font-weight: 400;
     text-align: center;
-    color: #000000;
 }
 
 .para2 {
-    color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: var(--fs-sm);
     font-weight: 400;
@@ -132,7 +128,7 @@
     font-size: var(--fs-s);
     font-weight: 600;
     text-align: left;
-    color: #000000;
+
 }
 
 .ff-do {
@@ -140,7 +136,6 @@
     font-size: var(--fs-s);
     font-weight: 400;
     text-align: left;
-    color: #000000;
     max-width: 866px;
 }
 
@@ -300,17 +295,17 @@ ul {
 /* ======================================header CSS CODE============================================ */
 
 .bg {
-    background: #F4241E;
+    background: var(--bg-red);
 }
 
 .bg3 {
-    background: #FFF03F;
+    background: var(--bg-light);
 }
 
 
 .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: var(--bg-white);
     position: relative;
     border-radius: 6px;
 }
@@ -394,7 +389,7 @@ ol li {
     width: 25px;
     height: 25px;
     right: -14px;
-    background-color: white;
+    background-color:var(--bg-white);
     border: none;
     top: 15px;
     border-radius: 50%;
@@ -417,7 +412,7 @@ ol li {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: red;
+    background-color: var(--bg-red);
     top: 4%;
     bottom: 33%;
     left: 50%;
@@ -431,23 +426,26 @@ ol li {
 
 .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;
-    background: #FFF03F;
+    background: var(--bg-light);
 }
 
 .accordion-item {
-    background: #FFF03F !important;
+    background: var(--bg-light) !important;
     margin-bottom: 20px !important;
+    max-width: 922px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .accordion {
     --bs-accordion-border-color: none;
     --bs-accordion-bg: none;
-    background: #FFF03F transparent !important;
+    background: var(--bg-light) transparent !important;
 }
 
 .accordion-button:not(.collapsed) {
     box-shadow: none;
-    background-color: #FFF03F !important;
+    background-color: var(--bg-light) !important;
     color: #000;
 }
 
@@ -456,7 +454,7 @@ ol li {
         content: '';
         position: absolute;
         width: 6px;
-        background-color: red;
+        background-color: var(--bg-red);
         top: 4%;
         bottom: 32%;
         left: 50%;
@@ -550,7 +548,7 @@ ol li {
         width: 100%;
         height: 3px;
         border-radius: 0px;
-        background: red;
+        background: var(--bg-red);
     }
 
 
@@ -567,7 +565,7 @@ ol li {
         left: -100%;
         width: 100%;
         height: 100%;
-        background-color:#F6E300;
+        background-color: var(--bg-yellow);
         flex-direction: column;
         z-index: 2;
         transition: all 200ms linear;

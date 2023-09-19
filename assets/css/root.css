@@ -1,13 +1,11 @@
 :root {
     /* font-size */
     --fs-s: 14px;
-    --fs-sm: 26px;
+    --fs-sm: 18px;
     --fs-md: 20px;
     --fs-lg: 30px;
     --fs-xl: 40px;
 }
-
-
 @media (min-width:550px) {
     :root {
         /* font-size */
@@ -17,4 +15,61 @@
         --fs-lg: 36px;
         --fs-xl: 48px;
     }
+}
+
+.supplier {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 700;
+    text-align: center;
+}
+
+.jone {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-md);
+    font-weight: 700;
+}
+
+.manage {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-s);
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+
+.stay {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-sm);
+    font-weight: 400;
+    max-width: 522px;
+}
+.ff-up {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-s);
+    font-weight: 600;
+    text-align: left;
+    color: #000000;
+}
+
+.ff-do {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-s);
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    max-width: 866px;
+}
+.copy {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-s);
+    font-weight: 400;
+}
+.fa {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-xl);
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
 }
